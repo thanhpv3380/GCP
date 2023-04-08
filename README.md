@@ -20,7 +20,7 @@ ZONE=us-central1-a
 Run the following to create the cluster with the specified configuration:
 
 ```bash
-gcloud container clusters create onlineboutique-cluster \
+gcloud container clusters create onlineboutique-cluster-960 \
    --project=${DEVSHELL_PROJECT_ID} --zone=${ZONE} \
     --machine-type=n1-standard-2 --num-nodes=2
 ```
